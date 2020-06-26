@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"topics_tutorial_histogram\\\" -I/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -g   -o CMakeFiles/float_talker.dir/src/talker.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/src/talker.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/src/talker.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"topics_tutorial_histogram\\\" -I/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -std=c++11 -g   -o CMakeFiles/float_listener.dir/src/listener.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/src/listener.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/src/listener.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week09/examples/week09_ex01/build/gtest/gtest",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest   -std=c++11 -g -fPIC    -std=c++11 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+}
+]

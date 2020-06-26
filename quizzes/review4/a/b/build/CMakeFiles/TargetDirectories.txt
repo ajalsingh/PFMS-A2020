@@ -1,0 +1,3 @@
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/build/CMakeFiles/deque_vector_ops.dir

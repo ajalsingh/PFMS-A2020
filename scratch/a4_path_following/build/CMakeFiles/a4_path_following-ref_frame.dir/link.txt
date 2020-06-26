@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -std=c++0x  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,liba4_path_following-ref_frame.so -o devel/lib/liba4_path_following-ref_frame.so CMakeFiles/a4_path_following-ref_frame.dir/src/ref_frame_conversion.cpp.o 

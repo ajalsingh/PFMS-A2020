@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstudent_lib.a  CMakeFiles/student_lib.dir/home/ajal/git/pfms-2020a-ajalsingh/scratch/a2_skeleton/ranger.cpp.o CMakeFiles/student_lib.dir/home/ajal/git/pfms-2020a-ajalsingh/scratch/a2_skeleton/rangerfusion.cpp.o CMakeFiles/student_lib.dir/home/ajal/git/pfms-2020a-ajalsingh/scratch/a2_skeleton/cell.cpp.o CMakeFiles/student_lib.dir/home/ajal/git/pfms-2020a-ajalsingh/scratch/a2_skeleton/sonar.cpp.o CMakeFiles/student_lib.dir/home/ajal/git/pfms-2020a-ajalsingh/scratch/a2_skeleton/laser.cpp.o
+/usr/bin/ranlib libstudent_lib.a

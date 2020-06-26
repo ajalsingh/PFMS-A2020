@@ -1,0 +1,7 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/install.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/list_install_components.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/shapes.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/install/strip.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/starter/shape_lib/build/CMakeFiles/install/local.dir

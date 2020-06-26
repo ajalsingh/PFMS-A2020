@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review0/a/arrays.cpp
+iostream
+-
+random
+-
+chrono
+-
+limits
+-
+vector
+-
+

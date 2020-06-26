@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/car.cpp
+car.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/car.h
+cmath
+-
+iostream
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/car.h
+string
+-
+controllerinterface.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/controllerinterface.h
+chrono
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/controllerinterface.cpp
+controllerinterface.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/controllerinterface.h
+chrono
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/controllerinterface.h
+string
+-
+chrono
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/main.cpp
+car.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz2/b/car.h
+iostream
+-
+thread
+-
+vector
+-
+

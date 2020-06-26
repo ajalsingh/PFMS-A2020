@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/circle.cpp
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/circle.h
+cmath
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/circle.h
+shape.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/shape.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/main.cpp
+iostream
+-
+rectangle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/rectangle.h
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/circle.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/rectangle.cpp
+rectangle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/rectangle.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/rectangle.h
+shape.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/shape.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/shape.cpp
+shape.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/shape.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week03/starter/shape.h
+string
+-
+

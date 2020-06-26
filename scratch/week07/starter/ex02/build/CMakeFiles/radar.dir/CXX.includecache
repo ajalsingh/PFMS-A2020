@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/dataprocessing.cpp
+dataprocessing.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/dataprocessing.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/dataprocessing.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/main.cpp
+iostream
+-
+thread
+-
+radar.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/radar.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/radar.cpp
+iostream
+-
+stdlib.h
+-
+radar.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/radar.h
+vector
+-
+chrono
+-
+thread
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/radar.h
+string
+-
+vector
+-
+random
+-
+

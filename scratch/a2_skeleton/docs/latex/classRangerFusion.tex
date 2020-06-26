@@ -1,0 +1,363 @@
+\hypertarget{classRangerFusion}{}\section{Ranger\+Fusion Class Reference}
+\label{classRangerFusion}\index{Ranger\+Fusion@{Ranger\+Fusion}}
+
+
+The \hyperlink{classRangerFusion}{Ranger\+Fusion} class is a child of abstract class \hyperlink{classRangerFusionInterface}{Ranger\+Fusion\+Interface} Accepts cells and rangers and fuses the data. Checks if the ranger data occupies a cell, or passes through the cell (free). \hyperlink{classCell}{Cell} state is then updated.  
+
+
+
+
+{\ttfamily \#include $<$rangerfusion.\+h$>$}
+
+
+
+Inheritance diagram for Ranger\+Fusion\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classRangerFusion__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ranger\+Fusion\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classRangerFusion__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRangerFusion_ab09391c929404c32ad3e2cb7ab1d38bc}{Ranger\+Fusion} ()\hypertarget{classRangerFusion_ab09391c929404c32ad3e2cb7ab1d38bc}{}\label{classRangerFusion_ab09391c929404c32ad3e2cb7ab1d38bc}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRangerFusion}{Ranger\+Fusion} default constructor. \end{DoxyCompactList}\item 
+\hyperlink{classRangerFusion_a25fd5aaa541efc80c5251bc9be903379}{$\sim$\+Ranger\+Fusion} ()\hypertarget{classRangerFusion_a25fd5aaa541efc80c5251bc9be903379}{}\label{classRangerFusion_a25fd5aaa541efc80c5251bc9be903379}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRangerFusion}{Ranger\+Fusion} default destructor. \end{DoxyCompactList}\item 
+void \hyperlink{classRangerFusion_a01909c08b2a974e68b031056db730aba}{set\+Rangers} (std\+::vector$<$ \hyperlink{classRangerInterface}{Ranger\+Interface} $\ast$ $>$ rangers)
+\begin{DoxyCompactList}\small\item\em Member function prepares ranger data for fusion. \end{DoxyCompactList}\item 
+void \hyperlink{classRangerFusion_ae3128f8cc8f4cb955d8db661aefba3dc}{set\+Cells} (std\+::vector$<$ \hyperlink{classCell}{Cell} $\ast$ $>$ cells)
+\begin{DoxyCompactList}\small\item\em Member function prepares cells data for fusion. \end{DoxyCompactList}\item 
+void \hyperlink{classRangerFusion_aa9265f72bc3572567c9cf98cf6d9f0e1}{grab\+And\+Fuse\+Data} ()\hypertarget{classRangerFusion_aa9265f72bc3572567c9cf98cf6d9f0e1}{}\label{classRangerFusion_aa9265f72bc3572567c9cf98cf6d9f0e1}
+
+\begin{DoxyCompactList}\small\item\em Member function checks if the ranger data occupies a cell, or passes through the cell (free). \hyperlink{classCell}{Cell} state is then updated, O\+C\+C\+U\+P\+I\+ED (-\/1), F\+R\+EE (1), and U\+N\+K\+N\+O\+W\+N(0) \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \hyperlink{classRangerFusion_a5780383fdffe121a7a2372a047819ba9}{get\+Raw\+Range\+Data} ()
+\begin{DoxyCompactList}\small\item\em Member function gets raw range data generated from ranger class which was used in fusion. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{classCell}{Cell} $\ast$ $>$ \hyperlink{classRangerFusion_ad50617885caf58465966d9a6c9c56713}{get\+Cells} (void)
+\begin{DoxyCompactList}\small\item\em Member function gets cells with updated cell states after fusion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classRangerFusion_a5f2963a4d53c84e5ba293a25fd67fb2f}{calculate\+Cell\+Geometry} (\hyperlink{classCell}{Cell} $\ast$cell)
+\begin{DoxyCompactList}\small\item\em Member function calculates \hyperlink{classCell}{Cell} Geometry. \end{DoxyCompactList}\item 
+int \hyperlink{classRangerFusion_afa8523c62b05aa5d6d5fa2bf22d7219d}{analyse\+Laser} (double data\+\_\+x, double data\+\_\+y)
+\begin{DoxyCompactList}\small\item\em Member function checks if the laser point provided, has any interaction with cell. \end{DoxyCompactList}\item 
+int \hyperlink{classRangerFusion_a18d2a54f882b09d9041c952f957e324c}{analyse\+Sonar} (\hyperlink{structPoint}{Point} sonar\+\_\+p1, \hyperlink{structPoint}{Point} sonar\+\_\+p2)
+\begin{DoxyCompactList}\small\item\em Member function checks if the sonar data provided, has any interaction with cell. \end{DoxyCompactList}\item 
+bool \hyperlink{classRangerFusion_a16257a2c9e7e482de25bc8a0968c2e70}{check\+For\+Intersect} (\hyperlink{structPoint}{Point} p1, \hyperlink{structPoint}{Point} p2, \hyperlink{structPoint}{Point} p3, \hyperlink{structPoint}{Point} p4)
+\begin{DoxyCompactList}\small\item\em Member function checks if two given lines intersect. \end{DoxyCompactList}\item 
+double \hyperlink{classRangerFusion_af73b5c54aacf13aea39e2f18916b6608}{orientation} (\hyperlink{structPoint}{Point} p, \hyperlink{structPoint}{Point} q, \hyperlink{structPoint}{Point} r)
+\begin{DoxyCompactList}\small\item\em Member function determines the orientation of ordered triplet (p,q,r) \end{DoxyCompactList}\item 
+bool \hyperlink{classRangerFusion_a3acbc5680a1ae726bdff3ca84ae84d09}{check\+On\+Segment} (\hyperlink{structPoint}{Point} p, \hyperlink{structPoint}{Point} q, \hyperlink{structPoint}{Point} r)
+\begin{DoxyCompactList}\small\item\em Member function given three colinear points p, q, r, the function checks if point q lies on line segment \textquotesingle{}pr\textquotesingle{}. \end{DoxyCompactList}\item 
+double \hyperlink{classRangerFusion_a358e04e31466f1ba5daa20d1de38ff9b}{triangle\+Area} (\hyperlink{structPoint}{Point} p1, \hyperlink{structPoint}{Point} p2, \hyperlink{structPoint}{Point} p3)
+\begin{DoxyCompactList}\small\item\em Member function calculates area of triangle formed by \hyperlink{structPoint}{Point} p1, \hyperlink{structPoint}{Point} p2, and \hyperlink{structPoint}{Point} p3. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \hyperlink{classRangerFusion_a2fa4a5228da72e2f33dd1121cf2644a7}{data\+\_\+}\hypertarget{classRangerFusion_a2fa4a5228da72e2f33dd1121cf2644a7}{}\label{classRangerFusion_a2fa4a5228da72e2f33dd1121cf2644a7}
+
+\begin{DoxyCompactList}\small\item\em Holds raw ranger data. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{classRangerInterface}{Ranger\+Interface} $\ast$ $>$ \hyperlink{classRangerFusion_ac0608d2ac2fbccdd394f3e920d2f4db9}{rangers\+\_\+}\hypertarget{classRangerFusion_ac0608d2ac2fbccdd394f3e920d2f4db9}{}\label{classRangerFusion_ac0608d2ac2fbccdd394f3e920d2f4db9}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classRangerInterface}{Ranger\+Interface} Class object pointers. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{classCell}{Cell} $\ast$ $>$ \hyperlink{classRangerFusion_aafc6b84823abfae3dc3a5095da43888e}{cells\+\_\+}\hypertarget{classRangerFusion_aafc6b84823abfae3dc3a5095da43888e}{}\label{classRangerFusion_aafc6b84823abfae3dc3a5095da43888e}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCell}{Cell} class object pointers. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \hyperlink{classRangerFusion_a2e57dd1467e95392d4652230279ea189}{angle\+\_\+for\+\_\+fusion\+\_\+}
+\begin{DoxyCompactList}\small\item\em Holds generated data of rangers. ~\newline
+ Every even element (0,2,...) holds a vector of angles. \end{DoxyCompactList}\item 
+std\+::vector$<$ double $>$ \hyperlink{classRangerFusion_ae250d57e1fc380c5a07bceabb75561fa}{cell\+\_\+side\+\_\+coordinates\+\_\+}\hypertarget{classRangerFusion_ae250d57e1fc380c5a07bceabb75561fa}{}\label{classRangerFusion_ae250d57e1fc380c5a07bceabb75561fa}
+
+\begin{DoxyCompactList}\small\item\em Holds upper and lower boundaries (x and y) of a cell. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{structPoint}{Point} $>$ \hyperlink{classRangerFusion_a87b7d6ab48ffa42bf845f24ffc8f38cd}{cell\+\_\+points\+\_\+}\hypertarget{classRangerFusion_a87b7d6ab48ffa42bf845f24ffc8f38cd}{}\label{classRangerFusion_a87b7d6ab48ffa42bf845f24ffc8f38cd}
+
+\begin{DoxyCompactList}\small\item\em Holds the four corners of a cell as points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classRangerFusion}{Ranger\+Fusion} class is a child of abstract class \hyperlink{classRangerFusionInterface}{Ranger\+Fusion\+Interface} Accepts cells and rangers and fuses the data. Checks if the ranger data occupies a cell, or passes through the cell (free). \hyperlink{classCell}{Cell} state is then updated. 
+
+\subsection{Member Function Documentation}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!analyse\+Laser@{analyse\+Laser}}
+\index{analyse\+Laser@{analyse\+Laser}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{analyse\+Laser(double data\+\_\+x, double data\+\_\+y)}{analyseLaser(double data_x, double data_y)}}]{\setlength{\rightskip}{0pt plus 5cm}int Ranger\+Fusion\+::analyse\+Laser (
+\begin{DoxyParamCaption}
+\item[{double}]{data\+\_\+x, }
+\item[{double}]{data\+\_\+y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_afa8523c62b05aa5d6d5fa2bf22d7219d}{}\label{classRangerFusion_afa8523c62b05aa5d6d5fa2bf22d7219d}
+
+
+Member function checks if the laser point provided, has any interaction with cell. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+\_\+x} & x coordinate of laser data point \\
+\hline
+{\em data\+\_\+y} & y of laser data point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O\+C\+C\+U\+P\+I\+ED\+: -\/1 ~\newline
+ F\+R\+EE\+: 1 (\hyperlink{classLaser}{Laser} passes through cell) ~\newline
+ U\+N\+K\+N\+O\+WN\+: 0 
+\end{DoxyReturn}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!analyse\+Sonar@{analyse\+Sonar}}
+\index{analyse\+Sonar@{analyse\+Sonar}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{analyse\+Sonar(\+Point sonar\+\_\+p1, Point sonar\+\_\+p2)}{analyseSonar(Point sonar_p1, Point sonar_p2)}}]{\setlength{\rightskip}{0pt plus 5cm}int Ranger\+Fusion\+::analyse\+Sonar (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{sonar\+\_\+p1, }
+\item[{{\bf Point}}]{sonar\+\_\+p2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a18d2a54f882b09d9041c952f957e324c}{}\label{classRangerFusion_a18d2a54f882b09d9041c952f957e324c}
+
+
+Member function checks if the sonar data provided, has any interaction with cell. 
+
+\hyperlink{classSonar}{Sonar} is represented by a triangle where 2 points are provided as params, the third point is the origin (0,0) 
+\begin{DoxyParams}{Parameters}
+{\em sonar\+\_\+p1} & \\
+\hline
+{\em sonar\+\_\+p2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O\+C\+C\+U\+P\+I\+ED\+: -\/1 ~\newline
+ F\+R\+EE\+: 1 (\hyperlink{classSonar}{Sonar} passes through cell) ~\newline
+ U\+N\+K\+N\+O\+WN\+: 0 
+\end{DoxyReturn}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!calculate\+Cell\+Geometry@{calculate\+Cell\+Geometry}}
+\index{calculate\+Cell\+Geometry@{calculate\+Cell\+Geometry}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{calculate\+Cell\+Geometry(\+Cell $\ast$cell)}{calculateCellGeometry(Cell *cell)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ranger\+Fusion\+::calculate\+Cell\+Geometry (
+\begin{DoxyParamCaption}
+\item[{{\bf Cell} $\ast$}]{cell}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a5f2963a4d53c84e5ba293a25fd67fb2f}{}\label{classRangerFusion_a5f2963a4d53c84e5ba293a25fd67fb2f}
+
+
+Member function calculates \hyperlink{classCell}{Cell} Geometry. 
+
+Uses cell\textquotesingle{}s centre x and y coordinates to calculate\+: ~\newline
+ 1) the x and y boundaries ~\newline
+ 2) the locations (x and y coordinate) of the four corners 
+\begin{DoxyParams}{Parameters}
+{\em cell} & object \\
+\hline
+\end{DoxyParams}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!check\+For\+Intersect@{check\+For\+Intersect}}
+\index{check\+For\+Intersect@{check\+For\+Intersect}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{check\+For\+Intersect(\+Point p1, Point p2, Point p3, Point p4)}{checkForIntersect(Point p1, Point p2, Point p3, Point p4)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Ranger\+Fusion\+::check\+For\+Intersect (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p1, }
+\item[{{\bf Point}}]{p2, }
+\item[{{\bf Point}}]{p3, }
+\item[{{\bf Point}}]{p4}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a16257a2c9e7e482de25bc8a0968c2e70}{}\label{classRangerFusion_a16257a2c9e7e482de25bc8a0968c2e70}
+
+
+Member function checks if two given lines intersect. 
+
+P1 and P2 represent endpoints of line 1, P2 and P3 represent endpoints of Line 2 
+\begin{DoxyParams}{Parameters}
+{\em p1} & Line 1 \hyperlink{structPoint}{Point} 1 \\
+\hline
+{\em p2} & Line 1 \hyperlink{structPoint}{Point} 2 \\
+\hline
+{\em p3} & Line 2 \hyperlink{structPoint}{Point} 1 \\
+\hline
+{\em p4} & Line 2 \hyperlink{structPoint}{Point} 2 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true if lines intersect 
+\end{DoxyReturn}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!check\+On\+Segment@{check\+On\+Segment}}
+\index{check\+On\+Segment@{check\+On\+Segment}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{check\+On\+Segment(\+Point p, Point q, Point r)}{checkOnSegment(Point p, Point q, Point r)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Ranger\+Fusion\+::check\+On\+Segment (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{{\bf Point}}]{q, }
+\item[{{\bf Point}}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a3acbc5680a1ae726bdff3ca84ae84d09}{}\label{classRangerFusion_a3acbc5680a1ae726bdff3ca84ae84d09}
+
+
+Member function given three colinear points p, q, r, the function checks if point q lies on line segment \textquotesingle{}pr\textquotesingle{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+{\em q} & \\
+\hline
+{\em r} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+p, q, r are of \hyperlink{structPoint}{Point} type 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+True when \hyperlink{structPoint}{Point} q lies on segment pr 
+\end{DoxyReturn}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!get\+Cells@{get\+Cells}}
+\index{get\+Cells@{get\+Cells}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{get\+Cells(void)}{getCells(void)}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ {\bf Cell} $\ast$ $>$ Ranger\+Fusion\+::get\+Cells (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classRangerFusion_ad50617885caf58465966d9a6c9c56713}{}\label{classRangerFusion_ad50617885caf58465966d9a6c9c56713}
+
+
+Member function gets cells with updated cell states after fusion. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{classCell}{Cell} object pointers 
+\end{DoxyReturn}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!get\+Raw\+Range\+Data@{get\+Raw\+Range\+Data}}
+\index{get\+Raw\+Range\+Data@{get\+Raw\+Range\+Data}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{get\+Raw\+Range\+Data()}{getRawRangeData()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Ranger\+Fusion\+::get\+Raw\+Range\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classRangerFusion_a5780383fdffe121a7a2372a047819ba9}{}\label{classRangerFusion_a5780383fdffe121a7a2372a047819ba9}
+
+
+Member function gets raw range data generated from ranger class which was used in fusion. 
+
+\begin{DoxyReturn}{Returns}
+Raw Data for rangers 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classRangerFusionInterface}{Ranger\+Fusion\+Interface}.
+
+\index{Ranger\+Fusion@{Ranger\+Fusion}!orientation@{orientation}}
+\index{orientation@{orientation}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{orientation(\+Point p, Point q, Point r)}{orientation(Point p, Point q, Point r)}}]{\setlength{\rightskip}{0pt plus 5cm}double Ranger\+Fusion\+::orientation (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p, }
+\item[{{\bf Point}}]{q, }
+\item[{{\bf Point}}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_af73b5c54aacf13aea39e2f18916b6608}{}\label{classRangerFusion_af73b5c54aacf13aea39e2f18916b6608}
+
+
+Member function determines the orientation of ordered triplet (p,q,r) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+{\em q} & \\
+\hline
+{\em r} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+p, q, r are of \hyperlink{structPoint}{Point} type 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+0, 1, or 2. Colinear, clockwise or anti-\/clockwise respectively 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+See \href{https://www.geeksforgeeks.org/orientation-3-ordered-points/}{\tt https\+://www.\+geeksforgeeks.\+org/orientation-\/3-\/ordered-\/points/} 
+\end{DoxySeeAlso}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!set\+Cells@{set\+Cells}}
+\index{set\+Cells@{set\+Cells}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{set\+Cells(std\+::vector$<$ Cell $\ast$ $>$ cells)}{setCells(std::vector< Cell * > cells)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ranger\+Fusion\+::set\+Cells (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ {\bf Cell} $\ast$ $>$}]{cells}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classRangerFusion_ae3128f8cc8f4cb955d8db661aefba3dc}{}\label{classRangerFusion_ae3128f8cc8f4cb955d8db661aefba3dc}
+
+
+Member function prepares cells data for fusion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cells} & -\/ vector of pointers \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classRangerFusionInterface}{Ranger\+Fusion\+Interface}.
+
+\index{Ranger\+Fusion@{Ranger\+Fusion}!set\+Rangers@{set\+Rangers}}
+\index{set\+Rangers@{set\+Rangers}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{set\+Rangers(std\+::vector$<$ Ranger\+Interface $\ast$ $>$ rangers)}{setRangers(std::vector< RangerInterface * > rangers)}}]{\setlength{\rightskip}{0pt plus 5cm}void Ranger\+Fusion\+::set\+Rangers (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ {\bf Ranger\+Interface} $\ast$ $>$}]{rangers}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classRangerFusion_a01909c08b2a974e68b031056db730aba}{}\label{classRangerFusion_a01909c08b2a974e68b031056db730aba}
+
+
+Member function prepares ranger data for fusion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rangers} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classRangerFusionInterface}{Ranger\+Fusion\+Interface}.
+
+\index{Ranger\+Fusion@{Ranger\+Fusion}!triangle\+Area@{triangle\+Area}}
+\index{triangle\+Area@{triangle\+Area}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{triangle\+Area(\+Point p1, Point p2, Point p3)}{triangleArea(Point p1, Point p2, Point p3)}}]{\setlength{\rightskip}{0pt plus 5cm}double Ranger\+Fusion\+::triangle\+Area (
+\begin{DoxyParamCaption}
+\item[{{\bf Point}}]{p1, }
+\item[{{\bf Point}}]{p2, }
+\item[{{\bf Point}}]{p3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a358e04e31466f1ba5daa20d1de38ff9b}{}\label{classRangerFusion_a358e04e31466f1ba5daa20d1de38ff9b}
+
+
+Member function calculates area of triangle formed by \hyperlink{structPoint}{Point} p1, \hyperlink{structPoint}{Point} p2, and \hyperlink{structPoint}{Point} p3. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & \\
+\hline
+{\em p2} & \\
+\hline
+{\em p3} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Triangle area 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\index{Ranger\+Fusion@{Ranger\+Fusion}!angle\+\_\+for\+\_\+fusion\+\_\+@{angle\+\_\+for\+\_\+fusion\+\_\+}}
+\index{angle\+\_\+for\+\_\+fusion\+\_\+@{angle\+\_\+for\+\_\+fusion\+\_\+}!Ranger\+Fusion@{Ranger\+Fusion}}
+\subsubsection[{\texorpdfstring{angle\+\_\+for\+\_\+fusion\+\_\+}{angle_for_fusion_}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$std\+::vector$<$double$>$ $>$ Ranger\+Fusion\+::angle\+\_\+for\+\_\+fusion\+\_\+\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRangerFusion_a2e57dd1467e95392d4652230279ea189}{}\label{classRangerFusion_a2e57dd1467e95392d4652230279ea189}
+
+
+Holds generated data of rangers. ~\newline
+ Every even element (0,2,...) holds a vector of angles. 
+
+\begin{DoxyNote}{Note}
+Angles are scanned anti-\/clockwsie from the positive x-\/axis. 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ajal/git/pfms-\/2020a-\/ajalsingh/scratch/a2\+\_\+skeleton/\hyperlink{rangerfusion_8h}{rangerfusion.\+h}\item 
+/home/ajal/git/pfms-\/2020a-\/ajalsingh/scratch/a2\+\_\+skeleton/rangerfusion.\+cpp\end{DoxyCompactItemize}

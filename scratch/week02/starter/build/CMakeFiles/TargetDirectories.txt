@@ -1,0 +1,4 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/build/CMakeFiles/circle_eg.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/build/CMakeFiles/rectangle_eg.dir

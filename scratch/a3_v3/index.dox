@@ -1,0 +1,38 @@
+/*!
+
+*/
+
+// without this gap between two doxygen defintion, the last group does not get
+// populated properly.
+
+/*!
+@mainpage PFMS Assessment 3
+
+@section ac_index_more_info Threading, Synchronisation and Data Integrity
+
+@subsection author Author:
+Ajal Singh
+
+@subsection version Version:
+1.0
+
+@subsection date Date Modified:
+27/05/2020
+
+@subsection description Description:
+This program is simulation of a friendly aircraft chasing and intercepting bogies within the airspace.
+\n At any given time, there will be four bogie aircraft flying in and out of the airspace (8000 x 8000m), which has a Base station in the middle.
+As the friendly reaches within 200m of the bogie, the bogie will disappear and be marked as intercepted.
+
+This aircraft searches for the nearest bogie within the airspace and aims for a position 1.5 seconds in the future.
+
+The simulation runs for 6 minutes after which bogies will no longer be intercepted.
+
+@subsection excecutable Excecutable:
+
+
+  \verbatim
+./a3_v3/build/a3_simulator_example
+  \endverbatim
+
+*/

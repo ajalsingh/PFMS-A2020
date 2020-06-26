@@ -1,0 +1,4 @@
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build/CMakeFiles/shapes_ex.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build/CMakeFiles/vector_ops.dir

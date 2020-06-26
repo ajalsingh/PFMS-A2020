@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: topics_tutorial_histogram
+Description: Description of topics_tutorial_histogram
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

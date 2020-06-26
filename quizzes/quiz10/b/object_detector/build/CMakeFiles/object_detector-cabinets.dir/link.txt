@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -std=c++11  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,libobject_detector-cabinets.so -o devel/lib/libobject_detector-cabinets.so CMakeFiles/object_detector-cabinets.dir/src/detectcabinet.cpp.o 

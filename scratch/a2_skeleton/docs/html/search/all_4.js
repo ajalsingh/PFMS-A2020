@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['generatedata',['generateData',['../classRanger.html#a2b76dc3e21da8a7abac830d09fa81241',1,'Ranger']]],
+  ['getangularresolution',['getAngularResolution',['../classRanger.html#a95b5013ae191d1e19b93fab002306718',1,'Ranger']]],
+  ['getcells',['getCells',['../classRangerFusion.html#ad50617885caf58465966d9a6c9c56713',1,'RangerFusion']]],
+  ['getcentre',['getCentre',['../classCell.html#a1087822ba50d7afea999824cca8cc1f4',1,'Cell']]],
+  ['getfieldofview',['getFieldOfView',['../classRanger.html#a4bca7dce56b7959257d90b1f30bf0271',1,'Ranger']]],
+  ['getfixedparams',['getFixedParams',['../main_8cpp.html#a45dfa865ea2a3e47b592321e9e129300',1,'main.cpp']]],
+  ['getmaxrange',['getMaxRange',['../classRanger.html#aba5e81260e55089d9ff869051156a722',1,'Ranger']]],
+  ['getminrange',['getMinRange',['../classRanger.html#a646a06d3916179b9ebc4502bad169eec',1,'Ranger']]],
+  ['getmodel',['getModel',['../classRanger.html#a00c1e787c323b1e1aa28333059fc4db5',1,'Ranger']]],
+  ['getnumsamples',['getNumSamples',['../classRanger.html#a03853a4887526a902a74bcb382b3827f',1,'Ranger']]],
+  ['getoffset',['getOffset',['../classRanger.html#a1c31d9a6c6a1c6ebd6325b36640b3576',1,'Ranger']]],
+  ['getrandomnumber',['getRandomNumber',['../classRanger.html#ac2eb58a7ddd097583a46c3c6a1d30c8f',1,'Ranger']]],
+  ['getrawdata',['getRawData',['../main_8cpp.html#a4df4a53a2f8566f3a0138e219a652ba8',1,'main.cpp']]],
+  ['getrawrangedata',['getRawRangeData',['../classRangerFusion.html#a5780383fdffe121a7a2372a047819ba9',1,'RangerFusion']]],
+  ['getsensingmethod',['getSensingMethod',['../classRanger.html#a2bcd122b3e549dc2525e04fa4dedc8ff',1,'Ranger']]],
+  ['getside',['getSide',['../classCell.html#a8369e6773b462215ea3c13d216621cb7',1,'Cell']]],
+  ['getstate',['getState',['../classCell.html#a88d636c8c89c53d4d62411feb4478ca4',1,'Cell']]],
+  ['grabandfusedata',['grabAndFuseData',['../classRangerFusion.html#aa9265f72bc3572567c9cf98cf6d9f0e1',1,'RangerFusion']]]
+];

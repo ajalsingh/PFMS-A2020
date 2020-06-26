@@ -1,0 +1,22 @@
+This is an acknowledgment that your quiz was detected as valid, with changes via reflog
+aed9d8b refs/remotes/origin/master@{Tue Apr 7 10:26:47 2020}: pull: fast-forward
+86dc712 refs/remotes/origin/master@{Mon Apr 6 08:56:13 2020}: pull: fast-forward
+092c24e refs/remotes/origin/master@{Wed Apr 1 19:00:28 2020}: update by push
+9ffe744 refs/remotes/origin/master@{Wed Apr 1 13:19:32 2020}: pull: fast-forward
+8ee8954 refs/remotes/origin/master@{Tue Mar 31 14:37:00 2020}: update by push
+8ad40ae refs/remotes/origin/master@{Tue Mar 31 12:26:29 2020}: update by push
+838c511 refs/remotes/origin/master@{Tue Mar 31 12:03:16 2020}: update by push
+88d9ea0 refs/remotes/origin/master@{Mon Mar 30 17:47:27 2020}: pull: fast-forward
+9d6997f refs/remotes/origin/master@{Sun Mar 29 14:09:33 2020}: pull: fast-forward
+e5eb29a refs/remotes/origin/master@{Thu Mar 26 09:32:18 2020}: update by push
+e6790f3 refs/remotes/origin/master@{Tue Mar 24 16:12:00 2020}: update by push
+89c08f3 refs/remotes/origin/master@{Tue Mar 24 12:39:09 2020}: update by push
+e9a4a49 refs/remotes/origin/master@{Tue Mar 24 12:10:11 2020}: update by push
+5198b79 refs/remotes/origin/master@{Tue Mar 24 12:10:04 2020}: pull: fast-forward
+988b057 refs/remotes/origin/master@{Mon Mar 23 20:21:49 2020}: pull: fast-forward
+5cb2f92 refs/remotes/origin/master@{Mon Mar 16 18:43:45 2020}: pull: fast-forward
+76551f9 refs/remotes/origin/master@{Sun Mar 15 19:28:16 2020}: pull: fast-forward
+c058195 refs/remotes/origin/master@{Thu Mar 12 21:24:05 2020}: update by push
+a4dfd1c refs/remotes/origin/master@{Thu Mar 12 17:35:43 2020}: pull: fast-forward
+afe2904 
+Quiz has been dispatched for review on : Tuesday 7 April  12:47:45 AEST 2020

@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -std=c++0x  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,libweek11-image_processing.so -o devel/lib/libweek11-image_processing.so CMakeFiles/week11-image_processing.dir/src/image_processing.cpp.o 

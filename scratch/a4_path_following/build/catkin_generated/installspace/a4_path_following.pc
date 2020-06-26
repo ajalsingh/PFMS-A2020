@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: a4_path_following
+Description: Description of a4_path_following
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

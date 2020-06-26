@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="quiz_4a" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shape_line_test">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/shape_line_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 shape_line_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shape_line_test/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/shape_line_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 shape_line_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shapes">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/libshapes.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 shapes" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="shapes/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/libshapes.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 shapes/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/analysis.cpp">
+         <Option target="shape_line_test"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/analysis.h">
+         <Option target="shape_line_test"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/circle.cpp">
+         <Option target="shapes"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/circle.h">
+         <Option target="shapes"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/line.cpp">
+         <Option target="shape_line_test"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/line.h">
+         <Option target="shape_line_test"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/main.cpp">
+         <Option target="shape_line_test"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/shape.cpp">
+         <Option target="shapes"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/shape.h">
+         <Option target="shapes"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/loops_typecasting.dir/loops_typecasting.cpp.o  -o loops_typecasting -rdynamic 

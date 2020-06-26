@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/b/main.cpp
+thread
+-
+chrono
+-
+iostream
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+

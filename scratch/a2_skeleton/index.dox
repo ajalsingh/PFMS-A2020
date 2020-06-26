@@ -1,0 +1,39 @@
+/*!
+
+*/
+
+// without this gap between two doxygen defintion, the last group does not get
+// populated properly.
+
+/*!
+@mainpage PFMS Assessment 2
+
+@section ac_index_more_info Utilising Abstraction for a Range of Sensor Classes
+
+@subsection author Author:
+Ajal Singh
+
+@subsection version Version:
+1.0
+
+@subsection date Date Modified:
+26/4/2020
+
+@subsection description Description:
+This program is a simulation of Ranger sensors and checks if given sensors occupy or passes through a cell (target).
+\n The field of view, offset and amount of cells can be congifured by the user.
+
+OUTPUT:
+Cell state where,
+\n -1 (OCCUPIED)
+\n  1  (FREE, sensor passes through cell)
+\n  0  (UNKNOWN)
+
+@subsection excecutable Excecutable:
+
+
+  \verbatim
+./a2_skeleton/build/assignment 2
+  \endverbatim
+
+*/

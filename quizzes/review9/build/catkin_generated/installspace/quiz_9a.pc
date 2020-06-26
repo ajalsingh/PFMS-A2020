@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: quiz_9a
+Description: Description of quiz_9a
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -std=c++0x  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,liba4_path_following-image_processing.so -o devel/lib/liba4_path_following-image_processing.so CMakeFiles/a4_path_following-image_processing.dir/src/image_processing.cpp.o 

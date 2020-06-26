@@ -1,0 +1,171 @@
+\hypertarget{main_8cpp}{}\section{/home/ajal/git/pfms-\/2020a-\/ajalsingh/scratch/a2\+\_\+skeleton/main.cpp File Reference}
+\label{main_8cpp}\index{/home/ajal/git/pfms-\/2020a-\/ajalsingh/scratch/a2\+\_\+skeleton/main.\+cpp@{/home/ajal/git/pfms-\/2020a-\/ajalsingh/scratch/a2\+\_\+skeleton/main.\+cpp}}
+
+
+main  
+
+
+{\ttfamily \#include \char`\"{}laser.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}sonar.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rangerfusion.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cell.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$thread$>$}\\*
+{\ttfamily \#include $<$chrono$>$}\\*
+{\ttfamily \#include $<$iomanip$>$}\\*
+{\ttfamily \#include $<$random$>$}\\*
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a45dfa865ea2a3e47b592321e9e129300}{get\+Fixed\+Params} (const std\+::vector$<$ \hyperlink{classRanger}{Ranger} $\ast$ $>$ rangers)
+\begin{DoxyCompactList}\small\item\em Prints Fixed Params for Rangers on console. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a4df4a53a2f8566f3a0138e219a652ba8}{get\+Raw\+Data} (const std\+::vector$<$ std\+::vector$<$ double $>$$>$ raw)
+\begin{DoxyCompactList}\small\item\em Prints Raw data to console. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a335ffcf745b11f0771ec1e7aee0b1722}{ranger\+Configuration} (std\+::vector$<$ \hyperlink{classRanger}{Ranger} $\ast$ $>$ \&rangers)
+\begin{DoxyCompactList}\small\item\em Configures ranger params according to type and user\textquotesingle{}s specifications. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a5c7c526411e4f9aaad664f1f41ad5ac4}{cell\+Configuration} (std\+::vector$<$ \hyperlink{classCell}{Cell} $\ast$ $>$ \&cells, std\+::vector$<$ \hyperlink{classRanger}{Ranger} $\ast$ $>$ \&rangers)
+\begin{DoxyCompactList}\small\item\em Creates number of cells specified by user. ~\newline
+ Randomly set centre location on grid based on ranger max distance. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a0328635da38f7f37dd18b0e886e1dbc1}{print\+Cell\+Locations} (const std\+::vector$<$ \hyperlink{classCell}{Cell} $\ast$ $>$ cells)
+\begin{DoxyCompactList}\small\item\em Prints coordinates of cell centre. \end{DoxyCompactList}\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\begin{DoxyCompactList}\small\item\em Main Function creates lasers, sonar and \hyperlink{classRangerFusion}{Ranger\+Fusion} objects and stores them in corresponding vectors ~\newline
+ Allows the user to configure rangers and cells and displays params/cell locations to console. ~\newline
+ Passes cells and rangers to fusion class for processing. ~\newline
+ Get updates cell state data and continuously print States to console ~\newline
+ \hyperlink{classRanger}{Ranger} data is continuously passed to fusion class and cell state is continuously returned. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_a1447ad288a0a73454510f5777bdc3ed1}{seed} = std\+::chrono\+::system\+\_\+clock\+::now().time\+\_\+since\+\_\+epoch().count()\hypertarget{main_8cpp_a1447ad288a0a73454510f5777bdc3ed1}{}\label{main_8cpp_a1447ad288a0a73454510f5777bdc3ed1}
+
+\begin{DoxyCompactList}\small\item\em Holds the seed used in random number generation. \end{DoxyCompactList}\item 
+int \hyperlink{main_8cpp_a4990e0064e9ccc91095d3aa899494869}{fusion\+\_\+count} =1\hypertarget{main_8cpp_a4990e0064e9ccc91095d3aa899494869}{}\label{main_8cpp_a4990e0064e9ccc91095d3aa899494869}
+
+\begin{DoxyCompactList}\small\item\em The number of fusions that have occured. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+main 
+
+\begin{DoxyAuthor}{Author}
+Ajal Singh 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+April 2020 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\index{main.\+cpp@{main.\+cpp}!cell\+Configuration@{cell\+Configuration}}
+\index{cell\+Configuration@{cell\+Configuration}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{cell\+Configuration(std\+::vector$<$ Cell $\ast$ $>$ \&cells, std\+::vector$<$ Ranger $\ast$ $>$ \&rangers)}{cellConfiguration(std::vector< Cell * > &cells, std::vector< Ranger * > &rangers)}}]{\setlength{\rightskip}{0pt plus 5cm}void cell\+Configuration (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ {\bf Cell} $\ast$ $>$ \&}]{cells, }
+\item[{std\+::vector$<$ {\bf Ranger} $\ast$ $>$ \&}]{rangers}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a5c7c526411e4f9aaad664f1f41ad5ac4}{}\label{main_8cpp_a5c7c526411e4f9aaad664f1f41ad5ac4}
+
+
+Creates number of cells specified by user. ~\newline
+ Randomly set centre location on grid based on ranger max distance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cells} & -\/ vector of pointers \\
+\hline
+{\em rangers} & -\/ vector of pointers \\
+\hline
+\end{DoxyParams}
+\index{main.\+cpp@{main.\+cpp}!get\+Fixed\+Params@{get\+Fixed\+Params}}
+\index{get\+Fixed\+Params@{get\+Fixed\+Params}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{get\+Fixed\+Params(const std\+::vector$<$ Ranger $\ast$ $>$ rangers)}{getFixedParams(const std::vector< Ranger * > rangers)}}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Fixed\+Params (
+\begin{DoxyParamCaption}
+\item[{const std\+::vector$<$ {\bf Ranger} $\ast$ $>$}]{rangers}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a45dfa865ea2a3e47b592321e9e129300}{}\label{main_8cpp_a45dfa865ea2a3e47b592321e9e129300}
+
+
+Prints Fixed Params for Rangers on console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rangers} & -\/ vector of pointers \\
+\hline
+\end{DoxyParams}
+\index{main.\+cpp@{main.\+cpp}!get\+Raw\+Data@{get\+Raw\+Data}}
+\index{get\+Raw\+Data@{get\+Raw\+Data}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{get\+Raw\+Data(const std\+::vector$<$ std\+::vector$<$ double $>$$>$ raw)}{getRawData(const std::vector< std::vector< double >> raw)}}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Raw\+Data (
+\begin{DoxyParamCaption}
+\item[{const std\+::vector$<$ std\+::vector$<$ double $>$$>$}]{raw}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a4df4a53a2f8566f3a0138e219a652ba8}{}\label{main_8cpp_a4df4a53a2f8566f3a0138e219a652ba8}
+
+
+Prints Raw data to console. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em raw} & Data -\/ vector of vector doubles \\
+\hline
+\end{DoxyParams}
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{main()}{main()}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+Main Function creates lasers, sonar and \hyperlink{classRangerFusion}{Ranger\+Fusion} objects and stores them in corresponding vectors ~\newline
+ Allows the user to configure rangers and cells and displays params/cell locations to console. ~\newline
+ Passes cells and rangers to fusion class for processing. ~\newline
+ Get updates cell state data and continuously print States to console ~\newline
+ \hyperlink{classRanger}{Ranger} data is continuously passed to fusion class and cell state is continuously returned. 
+
+\begin{DoxyNote}{Note}
+User must manually terminate program. 
+\end{DoxyNote}
+\index{main.\+cpp@{main.\+cpp}!print\+Cell\+Locations@{print\+Cell\+Locations}}
+\index{print\+Cell\+Locations@{print\+Cell\+Locations}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{print\+Cell\+Locations(const std\+::vector$<$ Cell $\ast$ $>$ cells)}{printCellLocations(const std::vector< Cell * > cells)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Cell\+Locations (
+\begin{DoxyParamCaption}
+\item[{const std\+::vector$<$ {\bf Cell} $\ast$ $>$}]{cells}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a0328635da38f7f37dd18b0e886e1dbc1}{}\label{main_8cpp_a0328635da38f7f37dd18b0e886e1dbc1}
+
+
+Prints coordinates of cell centre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cells} & -\/ vector of pointers \\
+\hline
+\end{DoxyParams}
+\index{main.\+cpp@{main.\+cpp}!ranger\+Configuration@{ranger\+Configuration}}
+\index{ranger\+Configuration@{ranger\+Configuration}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{ranger\+Configuration(std\+::vector$<$ Ranger $\ast$ $>$ \&rangers)}{rangerConfiguration(std::vector< Ranger * > &rangers)}}]{\setlength{\rightskip}{0pt plus 5cm}void ranger\+Configuration (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ {\bf Ranger} $\ast$ $>$ \&}]{rangers}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a335ffcf745b11f0771ec1e7aee0b1722}{}\label{main_8cpp_a335ffcf745b11f0771ec1e7aee0b1722}
+
+
+Configures ranger params according to type and user\textquotesingle{}s specifications. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rangers} & -\/ vector of pointers \\
+\hline
+\end{DoxyParams}

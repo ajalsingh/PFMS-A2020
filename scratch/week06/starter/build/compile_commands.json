@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week06/starter/build",
+  "command": "/usr/bin/g++-5     -std=c++11 -pthread -g   -o CMakeFiles/test_threading.dir/main.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/scratch/week06/starter/main.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/scratch/week06/starter/main.cpp"
+}
+]

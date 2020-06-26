@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="week_01" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vectors">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/vectors" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 vectors" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="vectors/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/vectors" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 vectors/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pointers">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/pointers" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 pointers" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pointers/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/pointers" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 pointers/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="c_strings">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/c_strings" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 c_strings" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="c_strings/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/c_strings" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 c_strings/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="arrays">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/arrays" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 arrays" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="arrays/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/arrays" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 arrays/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="loops_typecasting">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/loops_typecasting" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 loops_typecasting" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="loops_typecasting/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/loops_typecasting" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 loops_typecasting/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="structs">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/structs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 structs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="structs/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/structs" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 structs/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="functions">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/functions" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 functions" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="functions/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/functions" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 functions/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="switch_case">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/switch_case" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 switch_case" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="switch_case/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/switch_case" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 switch_case/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hello">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/hello" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 hello" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hello/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/hello" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 hello/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/arrays.cpp">
+         <Option target="arrays"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/c_strings.cpp">
+         <Option target="c_strings"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/functions.cpp">
+         <Option target="functions"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/hello.cpp">
+         <Option target="hello"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/loops_typecasting.cpp">
+         <Option target="loops_typecasting"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/pointers.cpp">
+         <Option target="pointers"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/structs.cpp">
+         <Option target="structs"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/switch_case.cpp">
+         <Option target="switch_case"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/vectors.cpp">
+         <Option target="vectors"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

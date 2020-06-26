@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build",
+  "command": "/usr/bin/g++-5      -std=c++11 -g   -o CMakeFiles/q4a.dir/main.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/main.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/main.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build",
+  "command": "/usr/bin/g++-5      -std=c++11 -g   -o CMakeFiles/q4a.dir/graph.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/graph.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/graph.cpp"
+}
+]

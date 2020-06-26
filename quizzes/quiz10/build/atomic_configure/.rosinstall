@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ajal/catkin_ws/src/quiz10/build/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/ajal/git/pfms-2020a-ajalsingh/scratch/week10/starter/topics_masterclass/build/devel
+
+Name: week10
+Description: Description of week10
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

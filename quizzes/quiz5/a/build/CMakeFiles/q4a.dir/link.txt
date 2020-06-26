@@ -1,0 +1,1 @@
+/usr/bin/g++-5    -std=c++11 -g   CMakeFiles/q4a.dir/main.cpp.o CMakeFiles/q4a.dir/graph.cpp.o  -o q4a -rdynamic 

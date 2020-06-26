@@ -1,0 +1,4 @@
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/CMakeFiles/shape_line_test.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review3/a/build/CMakeFiles/shapes.dir

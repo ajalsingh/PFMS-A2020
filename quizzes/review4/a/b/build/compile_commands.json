@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/deque_vector_ops.dir/deque_vector_ops.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/deque_vector_ops.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review4/a/b/deque_vector_ops.cpp"
+}
+]

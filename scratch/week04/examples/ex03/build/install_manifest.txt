@@ -1,0 +1,6 @@
+/home/ajal/my_library/lib/libshapes.a
+/home/ajal/my_library/include/rectangle.h
+/home/ajal/my_library/include/circle.h
+/home/ajal/my_library/include/triangle.h
+/home/ajal/my_library/include/shape.h
+/home/ajal/my_library/include/line.h

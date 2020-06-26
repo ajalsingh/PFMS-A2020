@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/c_strings.dir/c_strings.cpp.o  -o c_strings -rdynamic 

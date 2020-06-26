@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/shapes_ex.dir/main.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/main.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/main.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/shapes_ex.dir/shape.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/shape.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/shape.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/shapes_ex.dir/rectangle.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/rectangle.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/rectangle.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/shapes_ex.dir/rectanglehelper.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/rectanglehelper.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/rectanglehelper.cpp"
+},
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/build",
+  "command": "/usr/bin/g++-5     -g   -std=gnu++11 -o CMakeFiles/vector_ops.dir/vector_ops.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/vector_ops.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz8/a/vector_ops.cpp"
+}
+]

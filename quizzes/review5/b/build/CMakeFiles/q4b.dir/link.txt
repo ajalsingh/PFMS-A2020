@@ -1,0 +1,1 @@
+/usr/bin/g++-5    -std=c++11 -pthread -g   CMakeFiles/q4b.dir/main.cpp.o  -o q4b -rdynamic 

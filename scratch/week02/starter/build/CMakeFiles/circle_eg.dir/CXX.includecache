@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/circle.cpp
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/circle.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/circle.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/circle_main.cpp
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week02/starter/circle.h
+iostream
+-
+vector
+-
+

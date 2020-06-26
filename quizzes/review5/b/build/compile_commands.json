@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review5/b/build",
+  "command": "/usr/bin/g++-5      -std=c++11 -pthread -g   -o CMakeFiles/q4b.dir/main.cpp.o -c /home/ajal/git/pfms-2020a-ajalsingh/quizzes/review5/b/main.cpp",
+  "file": "/home/ajal/git/pfms-2020a-ajalsingh/quizzes/review5/b/main.cpp"
+}
+]

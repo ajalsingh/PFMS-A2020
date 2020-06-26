@@ -1,0 +1,3 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex02/build/CMakeFiles/radar.dir

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dep/radar.h
+string
+-
+vector
+-
+random
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz6/a/main.cpp
+iostream
+-
+thread
+-
+chrono
+-
+radar.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz6/a/radar.h
+

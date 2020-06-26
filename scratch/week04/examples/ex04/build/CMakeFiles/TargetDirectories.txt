@@ -1,0 +1,3 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/build/CMakeFiles/shapes_ex.dir

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/main.cpp
+iostream
+-
+vector
+-
+random
+-
+sstream
+-
+rectangle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/rectangle.h
+triangle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/triangle.h
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week04/examples/ex04/circle.h
+
+/home/ajal/my_library/include/circle.h
+shape.h
+/home/ajal/my_library/include/shape.h
+
+/home/ajal/my_library/include/line.h
+
+/home/ajal/my_library/include/rectangle.h
+shape.h
+/home/ajal/my_library/include/shape.h
+
+/home/ajal/my_library/include/shape.h
+string
+-
+cmath
+-
+
+/home/ajal/my_library/include/triangle.h
+shape.h
+/home/ajal/my_library/include/shape.h
+line.h
+/home/ajal/my_library/include/line.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/starter/ex01/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+vector
+-
+chrono
+-
+random
+-
+algorithm
+-
+

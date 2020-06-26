@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/sum_doubles.dir/sum_doubles.cpp.o  -o sum_doubles -rdynamic 

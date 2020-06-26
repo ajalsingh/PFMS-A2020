@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/circle.cpp
+circle.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/circle.h
+cmath
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/circle.h
+shape.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/shape.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/shape.cpp
+shape.h
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/shape.h
+
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz3/a/shape.h
+string
+-
+

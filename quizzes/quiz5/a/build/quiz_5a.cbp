@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="quiz_5a" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="q4a">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/q4a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 q4a" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="q4a/fast">
+         <Option output="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/q4a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 q4a/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/graph.cpp">
+         <Option target="q4a"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/graph.h">
+         <Option target="q4a"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/main.cpp">
+         <Option target="q4a"/>
+      </Unit>
+      <Unit filename="/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

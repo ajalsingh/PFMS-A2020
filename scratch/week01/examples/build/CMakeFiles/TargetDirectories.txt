@@ -1,0 +1,11 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/vectors.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/pointers.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/c_strings.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/arrays.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/loops_typecasting.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/structs.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/functions.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/switch_case.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/hello.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week01/examples/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+prefix=/home/ajal/git/pfms-2020a-ajalsingh/scratch/week11/starter/services_masterclass/build/devel
+
+Name: week11
+Description: Description of week11
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

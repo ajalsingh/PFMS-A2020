@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/shapes_ex.dir/main.cpp.o  -o shapes_ex  -L/home/ajal/my_library/lib -rdynamic -lshapes -Wl,-rpath,/home/ajal/my_library/lib 

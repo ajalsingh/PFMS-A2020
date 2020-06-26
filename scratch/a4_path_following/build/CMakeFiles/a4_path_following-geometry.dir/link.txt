@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -std=c++0x  -Wno-deprecated -Wdeprecated-declarations -g  -shared -Wl,-soname,liba4_path_following-geometry.so -o devel/lib/liba4_path_following-geometry.so CMakeFiles/a4_path_following-geometry.dir/src/geometry.cpp.o 

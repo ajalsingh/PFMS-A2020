@@ -1,0 +1,3 @@
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz5/a/build/CMakeFiles/q4a.dir

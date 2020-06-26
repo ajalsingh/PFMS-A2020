@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/examples/ex01/dataprocessing.cpp
+dataprocessing.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/examples/ex01/dataprocessing.h
+thread
+-
+iostream
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/examples/ex01/dataprocessing.h
+mutex
+-
+vector
+-
+chrono
+-
+random
+-
+algorithm
+-
+condition_variable
+-
+vector
+-
+
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/examples/ex01/main.cpp
+iostream
+-
+thread
+-
+dataprocessing.h
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/week07/examples/ex01/dataprocessing.h
+

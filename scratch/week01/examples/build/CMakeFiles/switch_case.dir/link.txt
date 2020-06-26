@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/switch_case.dir/switch_case.cpp.o  -o switch_case -rdynamic 

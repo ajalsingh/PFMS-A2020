@@ -1,0 +1,8 @@
+prefix=/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz9/b/build/devel
+
+Name: quiz_9b
+Description: Description of quiz_9b
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

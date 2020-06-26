@@ -1,0 +1,5 @@
+<map id="Ranger" name="Ranger">
+<area shape="rect" id="node3" href="$classLaser.html" title="The Laser class is a child class the Ranger Class. &#160;&#160;This class creates lasers of sensing method type..." alt="" coords="5,155,60,181"/>
+<area shape="rect" id="node4" href="$classSonar.html" title="The Sonar class is a child class the Ranger Class Creates sonar objects of sensing method type CONE..." alt="" coords="85,155,141,181"/>
+<area shape="rect" id="node2" href="$classRangerInterface.html" title="RangerInterface" alt="" coords="15,5,130,32"/>
+</map>

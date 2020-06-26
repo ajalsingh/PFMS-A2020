@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz9/b/build/gtest/gtest/src -lpthread -Wl,-rpath,/home/ajal/git/pfms-2020a-ajalsingh/quizzes/quiz9/b/build/gtest/gtest/src 

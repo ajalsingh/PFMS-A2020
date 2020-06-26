@@ -1,0 +1,4 @@
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/Week01/starter-build/CMakeFiles/rebuild_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/Week01/starter-build/CMakeFiles/edit_cache.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/Week01/starter-build/CMakeFiles/struct.dir
+/home/ajal/git/pfms-2020a-ajalsingh/scratch/Week01/starter-build/CMakeFiles/hello.dir
